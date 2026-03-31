@@ -1,18 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <body>
-            <H1>Famous Monuments</H1>
-            <br>
-            <ul>
-                <li> The Great Wall of China. <https://i.natgeofe.com/k/1b9c8e5a-7c3d-4f0b-9c8e-5a1b2c3d4e5f/great-wall-of-china.jpg?wp=1&w=1084.125&h=1627.5 > </li>
-                <li> The Taj Mahal. <https://i.natgeofe.com/k/2a3b4c5d-6e7f-8g9h-0i1j-2k3l4m5n6o7/taj-mahal.jpg?wp=1&w=1084.125&h=1627.5 > </li>
-                <li> The Colosseum. <https://i.natgeofe.com/k/3c4d5e6f-7g8h-9i0j-1k2l-3m4n5o6p7q/colosseum.jpg?wp=1&w=1084.125&h=1627.5 > </li>
-                <li> The Statue of Liberty. <https://i.natgeofe.com/k/4d5e6f7g-8h9i-0j1k-2l3m-4n5o6p7q8r/statue-of-liberty.jpg?wp=1&w=1084.125&h=1627.5 > </li>
-            </ul>
-        </body>
-    </head>
+
+<head>
+    <title>Famous Monuments</title>
+</head>
+
+<body>
+    <h1>Famous Monuments</h1>
+
+    <ul>
+        <li>
+            The Great Wall of China -
+            <a href="https://www.tripsavvy.com/thmb/rgPvS8gRjQp2HW8ktng5bSe8zao=/2097x1429/filters:fill(auto,1)/GettyImages-1058859096-cea88342b91b482bb17255584d791c16.jpg"
+                target="_blank">
+                View Image
+            </a>
+        </li>
+
+        <li>
+            The Taj Mahal -
+            <a href="https://cdn.britannica.com/31/93431-050-5CC21556/Taj-Mahal-Agra-Uttar-Pradesh-India.jpg"
+                target="_blank">
+                View Image
+            </a>
+        </li>
+
+        <li>
+            The Colosseum -
+            <a href="https://a.cdn-hotels.com/gdcs/production110/d737/79d01da7-3020-4b44-9f2d-045801e4ba55.jpg"
+                target="_blank">
+                View Image
+            </a>
+        </li>
+
+        <li>
+            The Statue of Liberty -
+            <a href="https://th.bing.com/th/id/OIP.OMPb_rz_MIs8RPpEl0JNIwHaHy?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3"
+                target="_blank">
+                View Image
+            </a>
+        </li>
+    </ul>
+</body>
+
 </html>
-<br>
 
     
