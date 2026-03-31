@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <H1>Famous Monuments</H1>
+            <br>
+            <ul>
+                <li> The Great Wall of China. <https://i.natgeofe.com/k/1b9c8e5a-7c3d-4f0b-9c8e-5a1b2c3d4e5f/great-wall-of-china.jpg?wp=1&w=1084.125&h=1627.5 > </li>
+                <li> The Taj Mahal. <https://i.natgeofe.com/k/2a3b4c5d-6e7f-8g9h-0i1j-2k3l4m5n6o7/taj-mahal.jpg?wp=1&w=1084.125&h=1627.5 > </li>
+                <li> The Colosseum. <https://i.natgeofe.com/k/3c4d5e6f-7g8h-9i0j-1k2l-3m4n5o6p7q/colosseum.jpg?wp=1&w=1084.125&h=1627.5 > </li>
+                <li> The Statue of Liberty. <https://i.natgeofe.com/k/4d5e6f7g-8h9i-0j1k-2l3m-4n5o6p7q8r/statue-of-liberty.jpg?wp=1&w=1084.125&h=1627.5 > </li>
+            </ul>
+        </body>
+    </head>
+</html>
+<br>
+
+    
