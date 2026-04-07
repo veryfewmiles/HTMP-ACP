@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Foods we all like as Nepaleases</title>
+
+<body> 
+
+    <h1><u>Nepalease Foods</u></h1>
+
+    <p>
+        Nepalese food is known for being simple, healthy, and full of flavor. One of the most popular dishes is dal bhat, which
+        includes rice, lentil soup, and vegetables, and is eaten daily by many people. Momos, which are dumplings filled with
+        meat or vegetables, are also a favorite snack across the country. Nepalese cuisine is influenced by both Indian and
+        Tibetan cultures, making it a unique mix of flavors. Food in Nepal is also about tradition, family, and sharing meals
+        together.
+    </p>
+
+    <ul>
+        <li>Momo/Dumplings</li>
+        <li>Thukpa</li>
+        <li>Dal Bhat</li>
+        <li>Sel Roti</li>
+        <li>Gundruk</li>
+    </ul>
+
+    <h2><mark>Dumplings</mark></h2>
+    <img src="https://tse1.explicit.bing.net/th/id/OIP.I6Av-l2qxC6sGLBcxG06wQHaFc?rs=1&pid=ImgDetMain&o=7&rm=3"height=200 width=300>
+    <p>
+      Momos are tasty because they have a soft outside, juicy filling, and taste even better with spicy sauce.
+    </p>
+
+    <h2><mark>Thukpa</mark></h2>
+    <img src="https://tse2.mm.bing.net/th/id/OIP.Qxty-pPVBYDsXJ_wlyK6MgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"height=200 width=215>
+    <p> 
+    Thukpa is really good because it’s a warm, flavorful noodle soup filled with vegetables or meat, making it both
+    comforting and delicious, especially on a cold day.
+    </p> 
+    <h2><mark>Dal Bhat</mark></h2>
+    <img src="https://thumbs.dreamstime.com/z/dal-bhat-traditional-nepali-meal-platter-rice-lentils-soup-vegetables-papadum-spices-53605549.jpg"height=200 width=230>
+    <p>
+    Dal bhat is really good because it’s a balanced and filling meal with rice, lentil soup, and sides that give you lots of
+    flavor and energy.
+    </p>
+
+</body>
+
+</html>
