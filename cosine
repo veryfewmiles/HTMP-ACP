@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cosines</title>
+        </head>
+        <style>
+            h1{
+                background-color:aqua;
+               color:crimson
+            }
+            </style>
+        <body>
+            <h1>Cosines</h1>
+            <ul>
+                <li>Dumplings</li>
+                <li>Pizza</li>
+                <li>Spegetti</li>
+                <li>Burgers</li>
+                </ul>
+
