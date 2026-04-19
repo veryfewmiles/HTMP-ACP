@@ -8,13 +8,37 @@
                 background-color:aqua;
                color:crimson
             }
+            li{
+            font-style: italic;
+            font-size: x-large;
+            font-weight:bold;
+            color:chocolate;
+            }
             </style>
         <body>
             <h1>Cosines</h1>
             <ul>
                 <li>Dumplings</li>
                 <li>Pizza</li>
-                <li>Spegetti</li>
+                <li>Spaghetti</li>
                 <li>Burgers</li>
                 </ul>
+                <p>
+                <h4><mark>Dumplings</mark> are made from dough filled with meat or vegetables, and they’re good because they’re warm, tasty, and packed
+                with flavour.</h4>
+                </p>
+            <img src="https://tse1.explicit.bing.net/th/id/OIP.I6Av-l2qxC6sGLBcxG06wQHaFc?rs=1&pid=ImgDetMain&o=7&rm=3"height=200 width=250>
+            <p>
+            <h4><mark>Pizza</mark> is made from dough topped with sauce, cheese, and different toppings, and it’s good because it’s cheesy,
+            flavorful, and easy to customize.<h4></p>
+            <img src="https://wallpapers.com/images/hd/pizza-pictures-bdwo87aqbqoaj5sj.jpg"height=200 width=315>
+            <p><mark>Spaghetti</mark> is made from pasta noodles served with sauces like tomato or meat, and it’s good because it’s filling, tasty,
+            and easy to enjoy.</p>
+            <img src="https://www.acouplecooks.com/wp-content/uploads/2023/02/Pasta-Pomodoro-003-784x980.jpg"height=200 width=230></p>
+            <p><mark>Burgers</mark> are made with a grilled meat patty in a bun with toppings like lettuce, cheese, and sauce, and they’re good
+            because they’re juicy, flavorful, and satisfying.
+            <img src="https://cdn.pixabay.com/photo/2025/02/26/11/22/cheeseburger-9432851_1280.jpg"height=200 width=230></p>
+            </html>
+            </body>
+
 
