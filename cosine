@@ -2,8 +2,25 @@
 <html>
     <head>
         <title>Cosines</title>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdncdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<script src="https://stackpath.bootstrapcdncdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style>
+    .col {
+        text-align: center;
+        border: 3px solid rgb(1, 1, 1);
+    }
         </head>
         <style>
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
             h1{
                 background-color:aqua;
                color:crimson
@@ -25,9 +42,26 @@
             font-weight:bold;
             color:chocolate;
             }
+            
             </style>
         <body>
             <h1>Cosines</h1>
+            <div class="container">
+            <div class="row">
+            <div class="col">
+                Dumplings
+            </div>
+            <div class="col">
+                Pizza
+            </div>
+            <div class="col">
+                Spaghetti
+            </div>
+            <div class="col">
+                Burgers
+            </div>
+            </div>
+            </div>
             <ul>
                 <li>Dumplings</li>
                 <li>Pizza</li>
