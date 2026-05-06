@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<title>Swimming Academy</title>
+<style>
+body{
+      background-color: #1a1e2e;
+      color: #f0f0f060;
+      text-align: center;
+      padding:30px;
+    }
+    h1{color: #cc4446; }
+    h2{color: #f60707; margin-top: 30px; }
+    p{font-size: 18px;}
+    abbr{color:#0c5dc1; font-weight: bold;}
+    pre{
+    background-color: #c62121;
+    color: #66cc44;
+    }         
+  </style>
+  <body>
+</head>
+  <h1>Swimming Academy</h1>
+  <p>Discover the Swimming techniques that are very popular in swimming!
+  <h2>
+  <p> <abbr title="Michael Phelps">Micheal.P</abbr>🏊‍♂️
+  He has won 28 Olympic medals.</p>
+  <p><abbr title="Katie Ledecky">Katie.K</abbr>🏊
+  She started competing in the Olympics at 15 years old.
+</p>
+<h2>Swimming Ranking (Men)</h2>
+<pre>
+🏊Michael.P — Most decorated Olympian ever (28 medals, 23 gold 🏅)
+🏊Mark.S — Won 7 gold medals at the 1972 Olympics.
+🏊Ian.T — Nicknamed “The Thorpedo”
+</body>
+</html>
