@@ -10,19 +10,16 @@
             background:greenyellow;
             color: rgb(0, 174, 255);
             padding: 15px;
-            margin-top: 15px;
         }
         .Gaming{
             background:blue;
             color: rgb(255, 2, 2);
             padding: 15px;
-            margin-top: 15px;
         }
          .Swimming{
             background:rgb(230, 0, 255);
             color: rgb(13, 140, 2);
             padding: 15px;
-            margin-top: 15px;
         }
     </style>
 </head>
