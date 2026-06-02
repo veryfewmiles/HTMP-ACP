@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Function.HTML</title>
+<h1>Functions in HTML</h1>
+</head>
+<body>
+<script>
+function sumOfTwoNumbers() {
+ let x, y, z;
+ x = 5;
+ y = 11;
+ z = x + y;
+return z;
+ }
+ let sum = sumOfTwoNumbers();
+ document.write("The sum of x and y is " ,sum);
+function oddoreven(number) {
+if (number % 2==0) {
+document.write(number + " is an even num");
+}
+else{
+document.write(number +" is an odd num");
+}
+}
+let number = prompt("Enter The Number:");
+oddoreven(number);
+</script>
+</body>
+</html>
