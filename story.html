@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>A Scary Story</title>
+<style>
+body.dark {
+color: white;
+background: black;
+}
+button {
+display: block;
+margin: 5px;
+}
+.textEntry {
+margin-top: 12px;
+margin-bottom: 15px;
+}
+</style>
+</head>
+<body>
+<h1>The Toilet</h1>
+<p id="story">I wanted to take a poo, but a snake was in the toilet.</p>
+<button onclick="goDark()">Get a Bat 😈</button>
+<div class="textEntry">
+Type your name, if you are not a scaredy cat 😈
+<input type="text" id="name">
+</div>
+<button onclick="typeAndScream()">Do not even think about clicking me 🤬</button>
+<button onclick="finishTheStory()">Spill the tea bro.</button>
+<script>
+function typeAndScream() {
+var personName = document.getElementById("name").value;
+alert("I told you not to do that, " + personName + "!");
+}
+function goDark() {
+document.body.className = "dark";
+}
+function finishTheStory() {
+document.getElementById("story").innerHTML =
+"So I hired a plumber to take the snake out.";
+}
+</script>
+</body>
+</html>
