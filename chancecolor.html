@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Make changes to the square</title>
+<style>
+h2 {
+text-align: center;
+}
+.square {
+border: 1px solid black;
+width: 200px;
+height: 200px;
+margin: auto;
+}
+.buttons {
+padding: 20px;
+width: 200px;
+margin: auto;
+text-align: center;
+}
+</style>
+</head>
+<body>
+<h2>Make changes to the square</h2>
+<div class="square"></div>
+<div class="buttons">
+<button onclick="hideSquare()">Hide</button>
+<button onclick="showSquare()">Show</button>
+</div>
+<script>
+let div = document.querySelector(".square");
+function hideSquare() {
+div.style.display = "none";
+}
+function showSquare() {
+div.style.display = "block";
+}
+div.onmouseenter = function () {
+div.style.background = "blue";
+}
+div.onmouseleave = function () {
+div.style.background = "transparent";
+}
+</script>
+</body>
+</html>
