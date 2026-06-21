@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navbar</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+        .topnav {
+            background: #333;
+            overflow: hidden;
+        }
+.topnav a {
+float: left;
+color: #1affa3;
+padding: 14px;
+}
+        .topnav a:hover {
+            background: #ddd;
+            color: black;
+        }
+        .active {
+            background: #ffe066;
+        }
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+    </div>
+</body>
+</html>
