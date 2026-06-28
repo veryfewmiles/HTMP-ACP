@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ronaldo Explorer</h1>
+        <nav>
+            <a href="Home">Home</a>
+            <a href="About Us">About</a>
+            <a href="Contact Us">Contact</a>
+        </nav>
+    </header>
+    <div class="slider">
+        <img id="slide" src="https://images7.alphacoders.com/932/thumb-1920-932702.jpg" width="800" alt="Ronaldo">
+    </div>
+    <section class="content">
+        <h2>Messi vs Ronaldo👑</h2>
+        <p>
+            Lionel Messi and Cristiano Ronaldo have one of the biggest rivalries in football. They competed against each
+            other
+            for many years, winning trophies and breaking records. Their matches between Barcelona and Real Madrid were
+            watched
+            by millions of fans, and both players have become football legends.
+        </p>
+    </section>
+    <footer>
+        <p>© 2026 Ronaldo Explorer</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

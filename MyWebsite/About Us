@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My First Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+        <h1>Ronaldo Explorer</h1>
+        <nav>
+            <a href="Home">Home</a>
+            <a href="About Us">About</a>
+            <a href="Contact Us">Contact</a>
+        </nav>
+    </header>
+    <section class="content">
+        <h2>About Ronaldo</h2>
+        <img src="https://wallpapercave.com/wp/wp10648086.jpg" width="400" class="about-img">
+        <p>
+            Cristiano Ronaldo is one of the greatest football players in history. Born in Portugal, he is famous for his
+            speed,
+            powerful shots, and incredible goal-scoring ability. He has played for clubs like Manchester United, Real
+            Madrid,
+            Juventus, and Al Nassr. His hard work and dedication have inspired millions of fans around the world.
+        </p>
+    </section>
+    <section class="content">
+        <h2>His Shooting 🎯</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT18HrzmN-fX_lRs7czyjgeKMMoBKOPYliQFA&s"
+            width="500" class="about-img">
+        <p>
+            Cristiano Ronaldo is known for his powerful and accurate shooting. He can score with both feet and his head,
+            making him a dangerous attacker from almost anywhere on the field.
+        </p>
+    </section>
+    <section class="content">
+        <h2>Ronaldo's Achievements</h2>
+        <img src="https://c4.wallpaperflare.com/wallpaper/348/390/445/cristiano-ronaldo-kiev-ukraine-uefa-wallpaper-preview.jpg"
+            width="400" class="about-img">
+        <p><strong>🏆 Trophies</strong><br>
+            Ronaldo has won league titles in England, Spain, and Italy, along with many domestic and international
+            trophies.</p>
+        <p><strong>⚽ Goals</strong><br>
+            He has scored over 900 career goals, making him one of the highest goal scorers in football history.</p>
+        <p><strong>⭐ Champions League</strong><br>
+            Ronaldo has won the UEFA Champions League five times and is the competition's all-time leading goalscorer.
+        </p>
+    </section>
+    <footer>
+        <p> 2026 Ronaldo Explorer | Exploring Beyond the Goals</p>
+    </footer>
+</body>
+</html>

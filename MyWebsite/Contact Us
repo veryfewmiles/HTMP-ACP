@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ronaldo Explorer</h1>
+        <nav>
+            <a href="Home">Home</a>
+            <a href="About Us">About</a>
+            <a href="Contact Us">Contact</a>
+        </nav>
+    </header>
+    <section class="content">
+        <h2>Contact Ronaldo Control ⚽</h2>
+        <p>
+            Have a question about Ronaldo, his goals, or trophies?
+            Send us a message and we'll get back to you from Ronaldo Control. ⚽
+        </p>
+        <br>
+        <form>
+            <label for="name">Footballer's Name</label><br>
+            <input type="text" id="name" placeholder="Enter your name">
+            <br><br>
+            <label for="email">Goal Mail</label><br>
+            <input type="email" id="email" placeholder="Enter your email">
+            <br><br>
+            <label for="message">Transmission</label><br>
+            <textarea id="message" rows="5" placeholder="Type your message here."></textarea>
+            <br><br>
+            <button type="submit">Send Transmission</button>
+        </form>
+    </section>
+    <section class="content">
+        <h2>Mission Headquarters</h2>
+        <p><strong>Location:</strong> Earth, Solar System</p>
+        <p><strong>Email:</strong> SigmaBoy6967@gmail.com</p>
+        <p><strong>Hours:</strong> Open 24/7 Across the Universe</p>
+    </section>
+    <footer>
+        <p>© 2026 Ronaldo Explorer | Exploring Beyond the Goals</p>
+    </footer>
+</body>
+</html>
