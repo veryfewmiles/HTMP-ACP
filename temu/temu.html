@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f5f5f5;
+        }
+
+        header {
+            background: #ff6600;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        header input {
+            padding: 10px;
+            width: 300px;
+            max-width: 100%;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .banner {
+            background: linear-gradient(90deg, #ff6600, #ff8844);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .banner h1 {
+            margin-bottom: 10px;
+        }
+
+        .catergories {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .categories button {
+            padding: 10px 18px;
+            border: none;
+            border-radius: 20px;
+            background: rbg(43, 40, 40);
+            cursor: pointer;
+            transition: .2s;
+        }
+
+        .categories button:hover {
+            background: #ff6600;
+            color: white;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, ifr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, .15);
+            transition: .2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .info {
+            padding: 15px;
+        }
+
+        .info small {
+            color: red;
+            font-weight: bold;
+        }
+
+        .info h3 {
+            margin: 10px 0;
+        }
+
+        .price {
+            color: #ff6600;
+            font: size 22px;
+            font-weight: bold;
+            margin: 10px 0,
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background: #ff6600;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button.hover {
+            background: #e65c00;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 30px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temu Shop</title>
+</head>
+
+<body>
+    <header>
+        <h2>👑Temu Shop</h2>
+        <input type="text" id="search" placeholder="Search products...">
+        <div>
+            🛒 Shopping Cart:
+            <span id="CartCount">0</span>
+        </div>
+    </header>
+    <section class="banner">
+
+        <h1>🤑 Winter BigBoy Sales</h1>
+        <p>Save up to 67% on your items of Choice!</p>
+    </section>
+    <div class="catogories">
+        <button onclick="filterProducts('All')">All</button>
+
+        <button onclick="filterProducts('Electronics')">Electronics</button>
+
+        <button onclick="filterProducts('Fashion')">Fashion</button>
+
+        <button onclick="filterProducts('Bags')">Bags</button>
+    </div>
+
+    <section class="products" id="products"></section>
+
+    <footer>
+        <h3>Temu Shop</h3>
+        <p>Free Shipping On order on Saturday.</p>
+        <br>
+        <p>@ 2026 Temu Shop. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+
+        const items = [
+            {
+                name: "Wireless HeadPhones",
+                price: 899.95,
+                category: "Electronics",
+                rating: "⭐⭐⭐⭐",
+                sale: "20% OFF",
+                image: "https://images.unsplash.com/photo-1585298723682-7115561c51b7?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            },
+
+            {
+                name: "Running Shoes",
+                price: 99.99,
+                category: "Fashion",
+                rating: "⭐⭐⭐⭐",
+                sale: "25% OFF",
+                image: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            },
+
+            {
+                name: "Tesla",
+                price: 49990,
+                category: "Electronic",
+                rating: "⭐⭐⭐⭐⭐",
+                sale: "45% OFF",
+                image: "https://img.carma.com.au/954478/360doorsclosed/954478_XC_02_260623_0521.jpg?tr=f-auto,w-358,q-70,h-201"
+            },
+
+            {
+                name: "Electric Scooter",
+                price: 649.00,
+                category: "Electronic",
+                rating: "⭐⭐⭐⭐⭐",
+                sale: "35% OFF",
+                image: "https://99bikes.com.au/cdn/shop/files/sesegwe2pro_00_ehxvitsigkdpfhbr.jpg?v=1746419402&width=1946"
+            },
+
+            {
+                name: "BackPack",
+                price: 80.00,
+                category: "Bag",
+                rating: "⭐⭐⭐⭐",
+                sale: "15% OFF",
+                image: "https://cdn11.bigcommerce.com/s-ac3mahdhpk/images/stencil/960w/products/2085/4602/310_-_MERCH22_-_PUMA_Backpack__25308.1650495403.jpg?c=2"
+            },
+
+            {
+                name: "White T-Shirt",
+                price: 79.99,
+                category: "Fashion",
+                rating: "⭐⭐⭐⭐",
+                sale: "10% OFF",
+                image: "https://www.byltbasics.com.au/cdn/shop/files/250303_Performance_2.0SplitHemSSWhite_00222.jpg?v=1762343108&width=5000"
+            }
+        ];
+
+        const container = document.getElementById("products");
+
+        const search = document.getElementById("search");
+
+        let cart = 0;
+
+        function displayProducts(list) {
+            container.innerHTML = "";
+            list.ForEach(item => {
+                container.innerHTML += `
+    <div class="card">
+        <img src="${item.image}" alt="${item.name}">
+        <div class="info">
+            <small>🔥 ${item.sale}</small>
+        
+            <h3>${item.name}</h3>
+
+            <p>${item.rating}</p>
+
+            <div class="price">$${item.price}</div>
+
+            <button onclick="addCart()">
+                Add to Cart
+                </button>
+
+                </div>
+
+                </div>
+
+                `;
+
+            });
+        }
+
+        displayProducts(items);
+        function addCart() {
+            cart++;
+
+            document.getElementById("cartCount").innnerText = cart;
+        }
+
+        search.addEventListener("keyup", () => {
+            const text = search.value.toLowerCase();
+            const filtered = items.filter(item =>
+                item.name.toLowerCase().includes(text)
+            );
+            displayProducts(filtered)
+        });
+
+        function filterProducts(catergory) {
+            if (category === "All") {
+                displayProducts(items);
+                return;
+            }
+            const filtered = items.filter(item =>
+                item.category === category
+            );
+            displayProducts(filtered);
+        }
+    </script>
+</body>
